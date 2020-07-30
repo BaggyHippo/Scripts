@@ -1,7 +1,0 @@
-import requests
-from bs4 import BeautifulSoup
-
-bank_id = 1771062
-
-url = 'https://www.banki.ru/services/questions-answers/?id=%d&p=1' % (bank_id) # url страницы
-print(url)
