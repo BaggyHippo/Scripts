@@ -105,8 +105,8 @@ def parse_table(table):  # Функция разбора таблицы с во�
     return res
 
 
-for item in tables:
-    res = parse_table(item)
+for t in tables:
+    res = parse_table(t)
     result = result.append(res, ignore_index=True)
 
 result.to_excel("result.xlsx")
